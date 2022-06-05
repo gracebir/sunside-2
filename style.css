@@ -78,6 +78,10 @@ nav{
     width: 100%;
 }
 
+.transform-img-desk{
+    display: none;
+}
+
 .transform > div{
     height: 45vh;
     display: flex;
@@ -233,7 +237,7 @@ footer{
 }
 
 
-@media (min-width:45em) {
+@media (min-width: 45em) {
     .banner{
         background-image: url(./images/desktop/image-header.jpg);
         height: 100vh;
